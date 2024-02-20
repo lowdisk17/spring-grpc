@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.grpc.grpc;
+
+option java_multiple_files = true;
+option java_package = "com.grpc.grpc";
+
+service ProtoBuffers {
+    rpc communicate(Request) returns (Response) {
+    }
+}
+
+message Request {
+    string message = 1;
+}
+
+message Response {
+    string message = 1;
+}
