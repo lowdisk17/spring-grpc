@@ -8,7 +8,7 @@ Pre-req for 2nd Approach
 
 Approches
 
-1. Run the server and client in sequence by using any idea of your choice (example VSCode)
+1. Run the server and client in sequence by using any IDE of your choice (example VSCode)
   - After running client, check client and server console for the default message
 2. Run the server and by using grpcurl you can send request to the server
   - grpcurl --plaintext -d '{"message":"Sample Message"}' localhost:9090 <service>/<method>
